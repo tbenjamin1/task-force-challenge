@@ -1,0 +1,40 @@
+.summary {
+margin-bottom: 5rem;
+  max-width: 45rem;
+
+  height: 261px;
+ margin-left: 15rem;
+  position: relative;
+ 
+  border-radius: 8px 8px 0px 0px;
+  opacity: 1;
+
+ 
+ 
+}
+.cumulatively{
+  
+  border-radius: 8px 8px 0px 0px;
+  opacity: 1;
+ height: 8rem;
+ max-width: 45rem;
+ background: #1E776E 0% 0% no-repeat padding-box;
+
+
+}.total{
+  
+ 
+box-shadow: 0px 3px 16px #0000001F;
+
+opacity: 1;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+
+height: 8rem;
+width: 45rem;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 16px #0000001F;
+border-radius: 0px 0px 8px 8px;
+
+
+}
