@@ -9,3 +9,167 @@ letter-spacing: 0px;
 color: #000000;
 opacity: 1;
 }
+.nav button {
+    width: 60px;
+    height: 60px;
+    background: #1e776e 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    border-style: none;
+    color: #ffffff;
+    position: absolute;
+    top:50%;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .prev {
+    margin-left: 100px;
+  }
+  
+  .next {
+      float: right;
+    right:- 90px;
+  }
+  .left-arrow-btn {
+    transform: rotate(-180deg);
+  }
+  .load-next {
+    transform: translateY(-1920px);
+  }.card {
+    width: 500rem;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+    overflow: hidden;
+    height: 30rem;
+    cursor: pointer;
+    margin: 2rem
+    
+ 
+    /* margin-right: 3rem; */
+  
+}
+
+.right{
+    height: 30rem;
+    padding-top:5rem ;
+    width:30rem ;
+    background: #2FC8B8 0% 0% no-repeat padding-box;
+border-radius: 0px 8px 8px 0px;
+display: flex;
+flex-direction: column;
+opacity: 1;
+
+
+}
+.left{
+    height: 20rem;
+    padding-top:5rem ;
+    font: normal normal bold 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    width:30rem ;
+
+}
+.header{
+    height: 5rem;
+    text-align: center;
+    border-bottom:1px solid rgb(71, 68, 68);text-align: center;
+}
+.middle{
+    height: 5rem;
+  text-align: center;
+    border-bottom:  solid rgb(122, 119, 119);text-align: center;
+}.bottom{
+    height: 5rem;
+    text-align: center;
+    
+}.left h1{
+    text-align: center;
+    font: normal normal bold 32px/42px Bebas Neue;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 15px;
+}
+.left .bottom p{
+
+    text-align: center;
+    font: normal normal  Roboto;
+    letter-spacing: 0px;
+    color: #2FC8B8;
+    opacity: 1;
+}
+.left .bottom h2{
+    text-align: center;
+    font: normal normal bold  Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1
+}
+
+.bottom h1{
+    text-align: center;
+font: normal normal 300 24px/29px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1
+}
+.bottom h2{
+    text-align: center;
+    font: normal normal bold 8px/10px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.bottom p{
+    text-align: center;
+    font: normal normal 300 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/*  */
+.middle h1{
+    text-align: center;
+    font: normal normal 300 24px/29px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1
+}
+.middle h2{
+    text-align: center;
+    font: normal normal bold 8px/10px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.middle p{
+    text-align: center;
+    font: normal normal 300 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/*  */
+.header h1{
+    text-align: center;
+    font: normal normal 300 24px/29px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1
+}
+.header h2{
+    text-align: center;
+    font: normal normal bold 8px/10px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.header p{
+    text-align: center;
+    font: normal normal 300 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

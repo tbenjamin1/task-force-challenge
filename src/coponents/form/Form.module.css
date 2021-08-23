@@ -1,9 +1,9 @@
 .summary {
-margin-bottom: 5rem;
-  max-width: 45rem;
 
-  height: 261px;
- margin-left: 15rem;
+  max-width: 60rem;
+
+  height: 90rem;
+ margin-left: 10rem;
   position: relative;
  
   border-radius: 8px 8px 0px 0px;
@@ -16,25 +16,86 @@ margin-bottom: 5rem;
   
   border-radius: 8px 8px 0px 0px;
   opacity: 1;
- height: 8rem;
- max-width: 45rem;
+ height: 10rem;
+
  background: #1E776E 0% 0% no-repeat padding-box;
 
 
-}.total{
+}
+.cumulatively h1{
+  text-align: center;
+  font: normal normal  Roboto;
+  font-size: 65px;
+  letter-spacing: 0px;
+  color: #2FC8B8;
+  opacity: 1;
+  height: 5rem;
+
+}
+.cumulatively p{
+  text-align: center;
+  margin-bottom: 2rem;
+font: normal normal bold 22px/27px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+height: 3rem;
+margin-top: -2rem;
+
+}
+
+
+.total{
   
  
 box-shadow: 0px 3px 16px #0000001F;
 
 opacity: 1;
-display: grid;
-grid-template-columns: repeat(7, 1fr);
+display: flex;
 
-height: 8rem;
-width: 45rem;
-background: #FFFFFF 0% 0% no-repeat padding-box;
+height: 10rem;
+
+background:#ffff 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 16px #0000001F;
 border-radius: 0px 0px 8px 8px;
 
 
+}
+.card{
+  width: 200px;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+display: flex;
+flex-direction: column;
+  height: 100%;
+  cursor: pointer;
+ 
+ 
+
+}
+.card p{
+  text-align: center;
+  font: normal normal  Roboto;
+  font-size: 23px;
+  letter-spacing: 0px;
+  color: #2FC8B8;
+  opacity: 1;
+}
+.card h2 {
+  text-align: center;
+  font: normal normal bold 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.card h3{
+  text-align: center;
+font: normal normal 300 16px/19px Roboto;
+letter-spacing: 0px;
+color: #888888;
+opacity: 1;
+}
+.card h8 h9 {
+  margin-top: 2rem;
 }

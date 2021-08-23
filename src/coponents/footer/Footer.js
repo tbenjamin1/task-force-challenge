@@ -20,7 +20,10 @@ const Footer = () => {
             <a href="https://www.w3schools.com/">GitHub</a>
           </span>
         </div>
-        <div className={classes["footer-bottom"]}></div>
+        <div className={classes["footer-bottom"]}>
+          <h1>develop by <strong>TUYISINGIZE BENJAMIN</strong></h1>
+         
+        </div>
       </header>
     </Fragment>
   );

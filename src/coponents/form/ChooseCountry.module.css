@@ -1,10 +1,10 @@
 .summary {
    
-    max-width: 45rem;
-    width: 30rem;
+    max-width: 25rem;
+    
     height: 2rem;
     
-   margin-left: 22rem;
+   margin-left: 30rem;
    margin-bottom: 2rem;
    
     background: #e8ecec 0% 0% no-repeat padding-box;
@@ -16,19 +16,29 @@
   }.summary form{
       display: flex;
       
-     
-      height: 6rem;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border-radius: 6px 0px 0px 6px;
+      opacity: 1;
+    
       /* padding-bottom:4rem; */
   }
   input {
    
-    height: 2rem;
-   
-    width: 109rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 select {
-    font-size: .9rem;
-    padding: 2px 5px;
-    width: 7rem;
-    height: 2rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 6px 0px 0px 6px;
+opacity: 1;
+}
+.summary form button{
+    text-align: center;
+    font: normal normal bold 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #1E776E 0% 0% no-repeat padding-box;
+ border-radius: 0px 6px 6px 0px;
+    opacity: 1;
+   
 }

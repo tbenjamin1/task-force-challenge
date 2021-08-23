@@ -3,9 +3,17 @@ import Button from "../UI/Button";
 import classes from "./ChooseCountry.module.css";
 
 
-const ChooseCountry = () => {
+const ChooseCountry = (props) => {
   const [enteredDate, setEnteredDate] = useState("");
   const [SelectedCountry, setSelectedCountry] = useState("");
+ 
+
+ 
+  
+
+  const changeSelectedOption =(event)=>{
+    setSelectedCountry(event.target.value);
+};
 
   const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value);
@@ -14,8 +22,15 @@ const ChooseCountry = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     
-   
+   const formData = {
+      country:SelectedCountry,
     
+      date: new Date(enteredDate),
+      
+    };
+    
+
+    props.filterData(formData);
    setSelectedCountry("");
     setEnteredDate("");
    
@@ -24,7 +39,7 @@ const ChooseCountry = () => {
   return (
     <section className={classes.summary}>
       <form   onSubmit={submitHandler} >
-        <select id="country" name="country">
+        <select  value={SelectedCountry} onChange={changeSelectedOption} required>
         <option value="">Choose Country</option>
           <option value="Afganistan">Afghanistan</option>
           <option value="Albania">Albania</option>
@@ -291,9 +306,10 @@ const ChooseCountry = () => {
           max="2021-12-31"
           value={enteredDate}
           onChange={dateChangeHandler}
+          required
         />
 
-        <Button>submit</Button>
+        <button type="submit">submit</button>
       </form>
     </section>
   );

@@ -1,12 +1,19 @@
-import React, { Fragment } from "react"; 
-import Contact from "../contact/Contact";
+import React, { useState,Fragment } from "react"; 
+
 import ChooseCountry from "../form/ChooseCountry";
 import Form from '../form/Form'
-import Card from "../UI/Card";
-import Button from "../UI/Button";
+
+
 import classes from './Header.module.css';
 
 const Header = (props) => {
+  const [Filter, setFilter] = useState("");
+
+  const onSelected= (selectedData) => {
+    setFilter(selectedData);
+  };
+  console.log("onSelected");
+  console.log(Filter);
   return (
     <Fragment>
       <header className={classes.header} >
@@ -14,7 +21,7 @@ const Header = (props) => {
      <div className={classes['header-top']}>
      <h1>COVICALC</h1> 
      
-      <Button>contact</Button>
+      <button>contact</button>
      </div>
      
      <div className={classes['header-bottom']}>
@@ -22,8 +29,8 @@ const Header = (props) => {
          <h2>updates</h2>
          <p>search country</p>
        
-     <ChooseCountry/>
-       <Form/>
+     <ChooseCountry filterData={onSelected} />
+       <Form searchData={Filter}  />
      </div>
       
       </header>
