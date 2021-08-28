@@ -38,7 +38,7 @@ const Form = (props) => {
   return (
     <section className={classes.summary}>
       <div className={classes.cumulatively}>
-<h1>{test.cases}</h1>
+<h1>{test.updated}</h1>
 <p>cumulatively</p>
 
         </div>
@@ -51,30 +51,30 @@ const Form = (props) => {
           <h3>{test.testsPerOneMillion}</h3>
         </div>
         <div className={classes.card}>
-          <p>{test.tests}</p>
+          <p>{test.cases}</p>
           <h2>positive cases</h2>
-          <h3>{test.tests}</h3>
+          <h3>{test.casesPerOneMillion}</h3>
         </div>
         <div className={classes.card}>
-          <p>{test.tests}</p>
+          <p>{test.critical}</p>
           <h2>hospitalized</h2>
-          <h3>{test.tests}</h3>
+          <h3>{test.criticalPerOneMillion}</h3>
         </div>
 
         <div className={classes.card}>
-          <p>{test.tests}</p>
+          <p>{test.recovered}</p>
           <h2>Recovered</h2>
-          <h3>{test.tests}</h3>
+          <h3>{test.recoveredPerOneMillion}</h3>
         </div>
         <div className={classes.card}>
-          <p>{test.tests}</p>
+          <p>{test.deaths}</p>
           <h2>Deaths</h2>
-          <h3>{test.tests}</h3>
+          <h3>{test.deathsPerOneMillion}</h3>
         </div>
         <div className={classes.card}>
-          <p>{test.tests}</p>
+          <p>{test.population}</p>
           <h2>vaccineted</h2>
-          <h3>{test.tests}</h3>
+          <h3>{test.oneTestPerPeople}</h3>
         </div>
        
       </div>
